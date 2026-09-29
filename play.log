@@ -1,0 +1,24 @@
+2026-09-28 16:06:42,724 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:01,794 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:01,794 | ERROR | app.routers.post | something broke
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\API-Development-main-fixed\log_play.py", line 32, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-09-28 16:08:37,521 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:37,521 | ERROR | app.routers.post | something broke
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\API-Development-main-fixed\log_play.py", line 32, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero
+2026-09-28 16:08:42,992 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:51,915 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:57,848 | INFO | app.routers.post | goes to the console AND to play.log
+2026-09-28 16:08:57,849 | ERROR | app.routers.post | something broke
+Traceback (most recent call last):
+  File "C:\Users\hp\Desktop\API-Development-main-fixed\log_play.py", line 32, in <module>
+    1 / 0
+    ~~^~~
+ZeroDivisionError: division by zero

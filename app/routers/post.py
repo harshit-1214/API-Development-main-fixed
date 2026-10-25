@@ -26,6 +26,9 @@ async def get_posts(
 ):
     result = await db.execute(select(table).where(table.title.contains(search)).limit(limit).offset(skip))
     posts = result.scalars().all()
+    if len(posts) == 0 :
+        logger.info("NO POST IS CREATED YET")
+        raise HTTPException(status_code=status.HTTP_201_CREATED, detail="NO POST IS CREATED YET")
     logger.debug("posts listed count=%s limit=%s skip=%s search=%r user_id=%s", len(posts), limit, skip, search, current_user.id)
     return posts
 

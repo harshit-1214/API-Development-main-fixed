@@ -35,7 +35,7 @@ async def connect_database():
             await connection.execute(text("SELECT 1"))
     except Exception:
         logger.exception("database connection FAILED")
-        raise
+        
     logger.info("database connection OK")
 
 
